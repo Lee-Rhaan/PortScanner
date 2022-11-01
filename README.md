@@ -25,15 +25,14 @@ Application usage
 
 - I'm making use of Java's Socket class in order to establish communication between the machines.
 - This port scanner determines the open/closed ports based of if a connection has been established or not.
-- In order to provide sufficient performance, this Port Scanner is running in parallel - using the ExecutorService interface in Java.
-
-> and all you had to do was just click a button...
+- In order to provide sufficient performance, this Port Scanner is running in parallel - using the ExecutorService interface in Java which is an 
+  asynchronous mechanism that allows you to run tasks simultaneously in the background.
 
 ---
 
 ## Additional Information:
 
-### HelloBot JAR
+### PortScanner JAR
 
 - Contained in the target folder in this projects repo, you'll find an already packaged JAR file.
 - Remove it and rebuild the project (enter this command in the project directory): mvn clean package 
@@ -44,7 +43,12 @@ Application usage
 
 - Contained in this projects repo, you'll notice an already made batch script as well.
 - Edit the script with notepad/notepad++
-- Copy the location of the HelloBot JAR once it has been successfuly build.
+- Copy the location of the PortScanner JAR once it has been successfuly build.
 - Place the path in the {place_holder) field and save the script.
 
 > Now you're ready to go!!!
+
+https://user-images.githubusercontent.com/81378094/199252504-c4a85492-4aaa-4f2b-9ccb-fc2713dc9894.mp4
+
+
+
